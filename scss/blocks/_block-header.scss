@@ -1,5 +1,19 @@
 .header {
   text-align: center;
-  background: url(../../images/header-img.jpg) center no-repeat;
-  
+  background: url(../../images/header-img.jpg);
+  background-size: cover;
+  height: 745px;
+  display: flex;
+  justify-content: center;
+h1 {
+  color:$white;
+  text-transform: uppercase;
+}
+p{
+  color: $white;
+}
+ .wrapper {
+   display: flex;
+   align-items: center;
+ }
 }

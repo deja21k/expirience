@@ -1,0 +1,35 @@
+.design {
+  @include respond-to (768) {
+    padding: 0 $space-2;
+  }
+  button {
+    margin:0;
+
+  }
+  h2{
+    text-align: center;
+    color: $green;
+    @include respond-to (768) {
+      text-align: right;
+    }
+  }
+    p {
+      padding: $space-3 $space-1;
+      text-align: center;
+      color: $silver;
+      @include respond-to (768) {
+        text-align: right;
+      padding:$space-3 0;
+      }
+    }
+    .wrapper {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+    }
+      &__slider {
+
+  }
+  &__slider-buttons {
+}
+}

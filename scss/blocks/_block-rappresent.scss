@@ -1,0 +1,36 @@
+.rappresent {
+  @include respond-to (768) {
+    padding: 0 $space-2;
+  }
+  button {
+    margin:0;
+
+  }
+  h2{
+    text-align: center;
+    color: $green;
+    @include respond-to (768) {
+      text-align: left;
+    }
+  }
+    p {
+      padding: $space-3 $space-1;
+      text-align: center;
+      color: $silver;
+      @include respond-to (768) {
+        text-align: left;
+      padding:$space-3 0;
+      }
+    }
+    &__wrapper {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: $space-4 $space-1;
+      @include respond-to(768) {
+        align-items: end;
+        max-width: 600px;
+
+      }
+    }
+  }

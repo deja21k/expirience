@@ -6,12 +6,16 @@
 
 $black: #000;
 $white: #fff;
+$silver: #373737;
+$green: #16a085;
 
-
+$space-05: 0.5rem;
 $space-1: 1rem;
 $space-2: 1.5rem;
 $space-3: 3rem;
 $space-4: 4rem;
+$space-10: 10rem;
+$space-15: 15rem;
 
 /**
 * -----------------------------------------------------------------------
@@ -22,6 +26,31 @@ $space-4: 4rem;
 $dosis: 'Dosis-Bold';
 $roboto: 'Roboto';
 $roboto-l: 'Roboto Light';
+
+
+/**
+* -----------------------------------------------------------------------
+*                              Icomoon
+* -----------------------------------------------------------------------
+*/
+
+.icon-twitter:before {
+  content: "\ea96";
+}
+.icon-flickr3:before {
+  content: "\eaa5";
+}
+.icon-dribbble:before {
+  content: "\eaa7";
+}
+.icon-circle-left:before {
+  content: "\ea44";
+}
+.icon-circle-right:before {
+  content: "\ea42";
+}
+
+
 
 @font-face {
     font-family:"Dosis-Bold";

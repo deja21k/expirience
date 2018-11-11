@@ -4,32 +4,61 @@
   }
   button {
     margin:0;
+    @include respond-to (768) {
+      display: block;
+      margin-right: auto;
+
+    }
 
   }
   h2{
     text-align: center;
     color: $green;
     @include respond-to (768) {
-      text-align: right;
+      text-align: left;
     }
   }
-    p {
-      padding: $space-3 $space-1;
-      text-align: center;
-      color: $silver;
-      @include respond-to (768) {
-        text-align: right;
+  p {
+    padding: $space-3 $space-1;
+    text-align: center;
+    color: $silver;
+    @include respond-to (768) {
+      text-align: left;
       padding:$space-3 0;
-      }
     }
-    .wrapper {
-      display: flex;
-      flex-direction: column;
-      text-align: center;
+
+  }
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: $space-4 $space-1;
+  }
+  &__slider {
+    :focus {
+      outline: none;
     }
-      &__slider {
+    @include respond-to (768) {
+      max-width: 600px;
+      margin-left: auto;
+    }
 
   }
   &__slider-buttons {
-}
+    ul {
+      display: none;
+      @include respond-to(768) {
+        display: flex;
+        margin-left: auto;
+        max-width: 600px;
+        padding-top: $space-3;
+        font-size: 20px;
+      }
+    }
+    li:nth-child(2) {
+      @include respond-to (768) {
+        padding-left: $space-1;
+      }
+    }
+  }
 }

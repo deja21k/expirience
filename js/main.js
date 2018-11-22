@@ -8,6 +8,21 @@ $(document).ready(function(){
     slidesToShow: 1,
   });
 
+  $('.community__slider').slick({
+
+    prevArrow: $('.prev1'),
+    nextArrow: $('.next1'),
+    slidesToShow: 1,
+    slidesToScroll: 1,
+
+    // mobileFirst: true,
+
+    // centerMode: true,
+    // centerPadding: '20px'
+    // autoplay: true,
+    // autoplaySpeed: 2000,
+  });
+
   function maska() {
     $(document).keydown(function(event){
       if ((event.ctrlKey || event.metaKey)  && event.which == 88){

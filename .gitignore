@@ -1,4 +1,6 @@
 node_modules/
+css/bundle.css
+css/bundle.css.map
 
 *~
 

@@ -1,4 +1,5 @@
 .design {
+  background: $silver;
   @include respond-to (768) {
     padding: 0 $space-2;
   }

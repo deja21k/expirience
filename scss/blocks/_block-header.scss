@@ -1,21 +1,26 @@
 .header {
+  min-height: 745px;
+
   text-align: center;
-  background: url(../../images/header-img.jpg);
+  background: url(../../images/header-img.jpg) no-repeat center;
   background-size: cover;
-  padding:$space-10;
   display: flex;
   justify-content: center;
 position: relative;
 h1 {
   color:$white;
   text-transform: uppercase;
+  letter-spacing: 7px;
+  padding-top: 90px;
 }
 p{
   color: $white;
+  letter-spacing: 1px;
 }
 a {
   color: $white;
   font-size: 20px;
+  padding-left: 8px;
 }
  .wrapper {
    display: flex;
@@ -25,6 +30,6 @@ a {
  }
  .social-wrapper {
    position: absolute;
-   bottom: $space-2;
+   bottom: 17px;
  }
 }

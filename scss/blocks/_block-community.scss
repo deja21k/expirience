@@ -1,21 +1,21 @@
 .community {
   /* the slides */
 .slick-slide {
-    margin: 0 10px;
+    // margin: 0 10px;
 }
 /* the parent */
 .slick-list {
-    margin: 0 -10px;
+    // margin: 0 -10px;
 }
   text-align: center;
   .our-community {
-    max-width: 400px;
+    // max-width: 400px;
   }
 
   &__slider {
-    max-width: 860px;
+    // max-width: 860px;
     img {
-      // width: 100%;
+   //    width: 100%;
    // max-width: 400px;
    // height: auto;
 
@@ -27,16 +27,13 @@
   &__buttons {
    justify-content: flex-end;
     display: flex;
-  // ul {
-  //     display: none;
-  //     @include respond-to(768) {
-  //       display: flex;
-  //       margin-left: auto;
-  //       max-width: 600px;
-  //       padding-top: $space-3;
-  //       font-size: 20px;
-  //     }
-  //   }
+  ul {
+      display: none;
+      @include respond-to(768) {
+        display: flex;
+        font-size: 20px;
+      }
+    }
   //   li:nth-child(2) {
   //     @include respond-to (768) {
   //       padding-left: $space-1;
@@ -44,7 +41,5 @@
   //   }
   // }
   }
-  img {
-    margin: auto;
-  }
+
 }

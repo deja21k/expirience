@@ -1,13 +1,14 @@
 .design {
-  background: $silver;
   @include respond-to (768) {
+    min-height: 558px;
     padding: 0 $space-2;
   }
   button {
     margin:0;
     @include respond-to (768) {
       display: block;
-      margin-right: auto;
+      margin-top: 37px;
+      padding: $space-1 $space-3;
 
     }
 
@@ -16,33 +17,40 @@
     text-align: center;
     color: $green;
     @include respond-to (768) {
-      text-align: left;
+
+    text-align: left;
+    font-size: 19px;
+    padding: 10px 0;
+    letter-spacing: 0.2em;
     }
   }
   p {
-    padding: $space-3 $space-1;
+    padding: $space-2 2rem 0 0;
     text-align: center;
     color: $silver;
+    font-size: 16px;
     @include respond-to (768) {
       text-align: left;
-      padding:$space-3 0;
+      padding: 1.5rem 1rem 0 0;
+      line-height: 22px;
+
     }
 
   }
   .wrapper {
     display: flex;
-    flex-direction: column;
+    flex-direction: row-reverse;
     text-align: center;
-    padding: $space-4 $space-1;
+    padding: $space-1;
   }
   &__slider {
     :focus {
       outline: none;
     }
     @include respond-to (768) {
-      max-width: 600px;
-      margin-left: auto;
-    }
+      padding-top: 115px;
+    margin-left: 0;
+    padding-left: 105px;    }
 
   }
   &__slider-buttons {
@@ -50,15 +58,15 @@
       display: none;
       @include respond-to(768) {
         display: flex;
-        margin-left: auto;
+        margin-left: 20%;
         max-width: 600px;
-        padding-top: $space-3;
+        padding-top: 3.5rem;
         font-size: 20px;
       }
     }
     li:nth-child(2) {
       @include respond-to (768) {
-        padding-left: $space-1;
+        padding-left: 0.5rem;
       }
     }
   }

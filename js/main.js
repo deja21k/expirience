@@ -11,6 +11,10 @@ function initCommunitySlider() {
     nextArrow: $('.next1'),
     slidesToShow: 2,
     slidesToScroll: 1,
+    centerMode: true,
+    centerPadding:10,
+
+
 
     // mobileFirst: true,
     //

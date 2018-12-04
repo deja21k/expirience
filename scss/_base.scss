@@ -4,7 +4,7 @@ Base Rules: The default styles.
 
 body{
   color: $black;
-  font-family: $roboto-l;
+  font-family: $gotham-book;
   position: relative;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
   //   -webkit-font-smoothing: antialiased;
@@ -14,8 +14,8 @@ body{
 
 h1, h2, h3, h4, h5, h6{
   margin: 0;
-  font-family: $dosis;
-  line-height: 1.2;
+  font-family: $gotham-bold;
+  line-height: 1;
 }
 
 ul, ol{
@@ -26,7 +26,7 @@ ul, ol{
 
 b{
   color: $black;
-  font-family: $roboto;
+  font-family: $gotham-book;
   font-weight: 500;
 }
 
@@ -40,7 +40,7 @@ a{
 p{
   margin: 0;
   color: $black;
-  font-family: $roboto-l;
+  font-family: $gotham-book;
   font-range: 320px 1920px;
   font-size: responsive 16px 18px;
   line-height: 1.8;
@@ -54,5 +54,5 @@ svg {
 }
 
 strong {
-  font-family: $roboto;
+  font-family: $gotham-book;
 }

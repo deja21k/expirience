@@ -82,14 +82,18 @@ hr.reset{
   font-size: responsive 20px 27px;
 }
 
+.p0 {
+    padding: 0;
+}
+
 #maska {
   position: absolute;
   top: 0;
   left: 0;
   opacity: .5;
   background: url('../images/overlay.png') no-repeat center;
-  background-size: 1200px 3595px;
-  width: 1200px;
+  background-size: 1280px 3595px;
+  width: 1280px;
   height: 3595px;
   z-index: 9999;
   display: none;

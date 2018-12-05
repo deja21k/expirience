@@ -15,6 +15,25 @@
         width: 805px;
         padding-right: 1rem;
     }
+    .our-community__left {
+      text-align: center;
+    padding-top: 73px;
+    padding-right: 42px;
+
+    &__left-img {
+      padding-bottom: 31px;
+
+    }
+
+  img {
+    padding-bottom: 31px;
+  }
+  h2 {
+    font-size: 17px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+  }
+    }
     &__buttons {
         justify-content: flex-end;
         display: flex;

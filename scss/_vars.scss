@@ -8,6 +8,7 @@ $black: #000;
 $white: #fff;
 $silver: #373737;
 $green: #16a085;
+$green-btn: #16a085;
 
 $space-05: 0.5rem;
 $space-1: 1rem;
@@ -48,6 +49,9 @@ $gotham-book: 'GothamRounded-Book';
 .icon-circle-right:before {
   content: "\ea42";
 }
+.icon-checkmark:before {
+  content: "\ea10";
+}
 
 
 @font-face {
@@ -70,11 +74,11 @@ $gotham-book: 'GothamRounded-Book';
 */
 @font-face {
   font-family: 'icomoon';
-  src:  url('../fonts/icomoon.eot?kc73d5');
-  src:  url('../fonts/icomoon.eot?kc73d5#iefix') format('embedded-opentype'),
-    url('../fonts/icomoon.ttf?kc73d5') format('truetype'),
-    url('../fonts/icomoon.woff?kc73d5') format('woff'),
-    url('../fonts/icomoon.svg?kc73d5#icomoon') format('svg');
+  src:  url('../fonts/icomoon.eot?i47kyp');
+  src:  url('../fonts/icomoon.eot?i47kyp#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?i47kyp') format('truetype'),
+    url('../fonts/icomoon.woff?i47kyp') format('woff'),
+    url('../fonts/icomoon.svg?i47kyp#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -94,46 +98,24 @@ $gotham-book: 'GothamRounded-Book';
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-check:before {
-  content: "\e901";
-  color: #009688;
+.icon-checkmark:before {
+  content: "\ea10";
 }
-.icon-hexagone-white:before {
-  content: "\e911";
-  color: #fff;
+.icon-circle-right:before {
+  content: "\ea42";
 }
-.icon-hexagone:before {
-  content: "\e912";
-  color: #4d4d4d;
-}
-.icon-search-arrow-mobile:before {
-  content: "\e91a";
-}
-.icon-strelica_search:before {
-  content: "\e91c";
-}
-.icon-arrow_mobile:before {
-  content: "\e900";
-}
-.icon-mail:before {
-  content: "\e91d";
-}
-.icon-cross:before {
-  content: "\ea0f";
-}
-.icon-google-plus:before {
-  content: "\ea8b";
-}
-.icon-facebook:before {
-  content: "\ea90";
+.icon-circle-left:before {
+  content: "\ea44";
 }
 .icon-twitter:before {
   content: "\ea96";
 }
-.icon-linkedin2:before {
-  content: "\eaca";
+.icon-flickr3:before {
+  content: "\eaa5";
 }
-
+.icon-dribbble:before {
+  content: "\eaa7";
+}
 
 /**
 * -----------------------------------------------------------------------

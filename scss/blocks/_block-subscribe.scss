@@ -1,0 +1,41 @@
+.subscribe {
+  text-align: center;
+  background: url(../../images/subscribe-bg.jpg) no-repeat center;
+  background-size: cover;
+  min-height: 790px;
+  padding-top: 349px;
+  input {
+    // height: calc(2.25rem + 25px);
+    width: 280px;
+    height: 60px;
+    padding-left: 18px;
+    letter-spacing: 2.4px;
+    font-family: $gotham-bold;
+  }
+  button {
+    width: 63px;
+    height: 60px;
+    background: $green-btn;
+    padding-top: 10px;
+
+  }
+  .icon-checkmark{
+    font-size:21px;
+  }
+
+  .btn:focus, .btn:active {
+    box-shadow: none;
+    outline: none;
+  }
+
+}
+.input-group {
+  justify-content: center;
+}
+.subscribe__title {
+  color: $white;
+  text-transform: uppercase;
+  font-size: 26px;
+  letter-spacing: 2.2px;
+  padding-bottom: 29px;
+}

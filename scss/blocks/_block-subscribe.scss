@@ -11,12 +11,17 @@
     padding-left: 18px;
     letter-spacing: 2.4px;
     font-family: $gotham-bold;
+    border-top-left-radius: .25rem;
+    border-top-right-radius:0;
+    border-bottom-left-radius:.25rem;
+    border-bottom-right-radius:0;
   }
   button {
     width: 63px;
     height: 60px;
     background: $green-btn;
     padding-top: 10px;
+    border:none;
 
   }
   .icon-checkmark{
@@ -28,7 +33,6 @@
     outline: none;
   }
 
-}
 .input-group {
   justify-content: center;
 }
@@ -38,4 +42,5 @@
   font-size: 26px;
   letter-spacing: 2.2px;
   padding-bottom: 29px;
+}
 }

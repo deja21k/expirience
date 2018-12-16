@@ -1,0 +1,84 @@
+.download {
+  text-align: center;
+  background: $grey-bg;
+  padding-bottom: 115px;
+
+  .icon-appleinc:before, .icon-android:before {
+    font-family: icomoon!important;
+    speak: none;
+    font-style: normal;
+    font-weight: 400;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    float: right;
+    font-size: 26px;
+    line-height: 56px;
+    width:56px;
+    background-color: $green;
+  }
+}
+.download-wrapper {
+  // padding: 0 134px;
+  padding-bottom: 115px;
+
+}
+.download-title {
+  text-transform: uppercase;
+  padding-top: 5.5rem;
+  font-size: 20px;
+  letter-spacing: 3px;
+
+}
+
+.download-body {
+  text-transform: uppercase;
+  font-size: 12px;
+  font-family:$gotham-bold;
+  letter-spacing: 1.7px;
+  padding: 9px 134px;
+}
+
+.btn:focus, .btn:active {
+  box-shadow: none;
+  outline: none;
+  border: none;
+}
+.donwload-button__wrapper {
+  padding-top: 34px;
+  display: flex;
+  justify-content: center;
+}
+
+.download-button {
+  text-transform: uppercase;
+  width: 296px;
+  height: 56px;
+  border-radius: 3px 0 0 3px;
+  background-color: $green-btn;
+  border:none;
+  padding:0px;
+  &__apple-body {
+    font-size: 16px;
+    float: left;
+    letter-spacing: 2.3px;
+    font-family:$gotham-bold;
+    padding: 20px 0 0 24px;
+
+  }
+  &__android-body {
+    font-size: 16px;
+    float: left;
+    font-family:$gotham-bold;
+    padding: 18px 0 0 30px;
+    letter-spacing: 3.7px;
+  }
+
+  &__wrapper--apple {
+    margin-right: 26px;
+  }
+
+  &__wrapper--android {
+  }
+}

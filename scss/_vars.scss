@@ -8,7 +8,10 @@ $black: #000;
 $white: #fff;
 $silver: #373737;
 $green: #16a085;
-$green-btn: #16a085;
+$green-btn: #1abc9c;
+$grey-bg: #f5f6f7;
+
+
 
 $space-05: 0.5rem;
 $space-1: 1rem;
@@ -115,6 +118,12 @@ $gotham-book: 'GothamRounded-Book';
 }
 .icon-dribbble:before {
   content: "\eaa7";
+}
+.icon-appleinc:before {
+  content: "\eabe";
+}
+.icon-android:before {
+  content: "\eac0";
 }
 
 /**

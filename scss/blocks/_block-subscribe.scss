@@ -2,8 +2,11 @@
   text-align: center;
   background: url(../../images/subscribe-bg.jpg) no-repeat center;
   background-size: cover;
-  min-height: 790px;
-  padding-top: 349px;
+  padding:200px 0;
+  @include respond-to(768){
+    min-height: 790px;
+    padding-top: 349px;
+  }
   input {
     // height: calc(2.25rem + 25px);
     width: 280px;

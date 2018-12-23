@@ -20,7 +20,7 @@
 }
 .download-wrapper {
   // padding: 0 134px;
-  padding-bottom: 115px;
+  padding-bottom: 95px;
 
 }
 .download-title {
@@ -36,7 +36,10 @@
   font-size: 12px;
   font-family:$gotham-bold;
   letter-spacing: 1.7px;
-  padding: 9px 134px;
+  padding: 25px 20px;
+  @include respond-to(768) {
+    padding: 9px 134px;
+  }
 }
 
 .btn:focus, .btn:active {
@@ -45,9 +48,13 @@
   border: none;
 }
 .donwload-button__wrapper {
-  padding-top: 34px;
+  padding-top: 25px;
   display: flex;
   justify-content: center;
+  flex-direction: column;
+  @include respond-to(768) {
+    flex-direction: row;
+  }
 }
 
 .download-button {
@@ -75,7 +82,10 @@
   }
 
   &__wrapper--apple {
-    margin-right: 26px;
+    margin-bottom: 20px;
+    @include respond-to(768) {
+      margin-right: 26px;
+    }
   }
 
   &__wrapper--android {

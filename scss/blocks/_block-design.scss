@@ -1,5 +1,6 @@
 
 .design {
+  padding: $space-3 0;
   @include respond-to (768) {
     min-height: 558px;
     padding: 0 $space-2;
@@ -27,7 +28,7 @@
     }
   }
   p {
-    padding: $space-2 2rem 0 0;
+    padding: 25px 0 25px ;
     text-align: center;
     color: $silver;
     font-size: 16px;

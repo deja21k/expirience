@@ -4,6 +4,18 @@
   @include respond-to (768) {
     padding: 0 $space-2;
   }
+
+  &__wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    @include respond-to(768) {
+      padding: 97px $space-4 $space-4;
+      align-items: end;
+
+    }
+  }
   button {
     margin: -2px;
     padding: 1rem 3rem;
@@ -37,15 +49,5 @@
     }
 
   }
-  &__wrapper {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 
-    @include respond-to(768) {
-      padding: 97px $space-4 $space-4;
-      align-items: end;
-
-    }
-  }
 }

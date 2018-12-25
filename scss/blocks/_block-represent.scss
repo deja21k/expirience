@@ -1,53 +1,53 @@
 .represent {
-  min-height: 492px;
-  padding: $space-4 0;
-  @include respond-to (768) {
-    padding: 0 $space-2;
-  }
+    min-height: 492px;
+    padding: $space-4 0;
 
-  &__wrapper {
+    @include respond-to (768) {
+        padding: 0 $space-2;
+    }
+}
+
+.represent__wrapper {
     display: flex;
     flex-direction: column;
     align-items: center;
 
     @include respond-to(768) {
-      padding: 97px $space-4 $space-4;
-      align-items: end;
-
+        padding: 97px $space-4 $space-4;
+        align-items: end;
     }
-  }
-  button {
+}
+
+.represent__button {
     margin: -2px;
     padding: 1rem 3rem;
+}
 
-
-  }
-  h2{
+.represent__title {
     text-align: center;
     color: $green;
+
     @include respond-to (768) {
-      font-size: 20px;
-      margin-top: 8px;
-      margin-left: -3px;
-      text-transform: uppercase;
-      letter-spacing: 0.17em;
-      text-align: left;
+        font-size: 20px;
+        margin-top: 8px;
+        margin-left: -3px;
+        text-transform: uppercase;
+        letter-spacing: 0.17em;
+        text-align: left;
     }
-  }
-  p {
+}
+
+.represent__text {
     padding: $space-3 $space-1;
     text-align: center;
     color: $silver;
     font-size: 15px;
+
     @include respond-to (768) {
-      text-align: left;
-      padding: 37px 0 41px;
-      margin-left: -4px;
-      letter-spacing: 0.08em;
-
-      line-height: 24px;
+        text-align: left;
+        padding: 37px 0 41px;
+        margin-left: -4px;
+        letter-spacing: 0.08em;
+        line-height: 24px;
     }
-
-  }
-
 }

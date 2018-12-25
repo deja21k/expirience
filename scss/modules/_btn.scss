@@ -12,7 +12,6 @@ $colors: (
   border: 2px solid;
   font: inherit;
   line-height: 1;
-  margin:$space-2;
   padding: $space-05 $space-4;
   @include respond-to(768) {
   padding: $space-1 2.5rem;

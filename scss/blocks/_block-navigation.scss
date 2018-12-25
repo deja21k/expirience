@@ -1,0 +1,27 @@
+.navbar {
+  position: fixed;
+z-index: 99;
+width: 100%;
+  @include respond-to(768) {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+  }
+  .navbar-expand-lg .navbar-collapse {
+    justify-content: center;
+  }
+}
+.navbar-nav{
+  text-transform: uppercase;
+}
+.nav-link {
+  font-family: $gotham-bold;
+
+}
+
+.navbar-light
+.navbar-nav
+.nav-link {
+  color: $white;
+}

@@ -33,6 +33,8 @@ a {
 .social-wrapper {
     position: absolute;
     bottom: 17px;
+    left:50%;
+    transform: translateX(-50%);
 }
 .social-wrapper__icon--twitter {
     &::before {

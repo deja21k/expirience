@@ -16,8 +16,8 @@ $(document).ready(function(){
 
     function initDesignSlider() {
         $('.design__slider').slick({
-            prevArrow: $('.prev'),
-            nextArrow: $('.next'),
+            prevArrow: $('.design__slider-arrows-prev'),
+            nextArrow: $('.design__slider-arrows-next'),
             slidesToShow: 1,
         });
     }

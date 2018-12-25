@@ -1,76 +1,67 @@
-
 .design {
-  padding: $space-3 0;
-  @include respond-to (768) {
-    min-height: 558px;
-    padding: 0 $space-2;
-  }
-  button {
-    margin:0;
+    padding: $space-3 0;
+
     @include respond-to (768) {
-      display: block;
-      margin-top: 37px;
-      padding: $space-1 $space-3;
-
+        min-height: 558px;
+        padding: $space-1;
     }
 
-  }
+    .design__slider {
+        @include respond-to (768) {
+            padding: 115px 0 0 105px;
+            margin-left: 0;
+        }
 
-  h2{
-    text-align: center;
-    color: $green;
-    @include respond-to (768) {
+        .design__slider-arrows {
+            display: none;
 
-    text-align: left;
-    font-size: 19px;
-    padding: 10px 0;
-    letter-spacing: 0.2em;
-    }
-  }
-  p {
-    padding: 25px 0 25px ;
-    text-align: center;
-    color: $silver;
-    font-size: 16px;
-    @include respond-to (768) {
-      text-align: left;
-      padding: 1.5rem 1rem 0 0;
-      line-height: 22px;
+            @include respond-to(768) {
+                display: flex;
+                margin-left: 20%;
+                max-width: 600px;
+                padding-top: 3.5rem;
+                font-size: 20px;
+            }
 
+            .design__slider-arrows-next {
+                @include respond-to (768) {
+                    padding-left: 0.5rem;
+                }
+            }
+        }
     }
 
-  }
-  .wrapper {
-    display: flex;
-    flex-direction: row-reverse;
-    text-align: center;
-    padding: $space-1;
-  }
-  &__slider {
-    :focus {
-      // outline: none;!important
-    }
-    @include respond-to (768) {
-      padding-top: 115px;
-    margin-left: 0;
-    padding-left: 105px;    }
+    .design__slider-button {
+        margin:0;
 
-  }
-  &__slider-buttons {
-    ul {
-      display: none;
-      @include respond-to(768) {
-        display: flex;
-        margin-left: 20%;
-        max-width: 600px;
-        padding-top: 3.5rem;
-        font-size: 20px;
-      }
+        @include respond-to (768) {
+            display: block;
+            margin-top: 37px;
+            padding: $space-1 $space-3;
+        }
     }
-    li:nth-child(2) {
-      @include respond-to (768) {
-        padding-left: 0.5rem;
-      }
+
+    .design__slider-title {
+        text-align: center;
+        color: $green;
+
+        @include respond-to (768) {
+            text-align: left;
+            font-size: 19px;
+            padding: 10px 0;
+            letter-spacing: 0.2em;
+        }
     }
-  }
-}
+
+    .design__slider-text {
+        padding: 25px 0 25px ;
+        text-align: center;
+        color: $silver;
+        font-size: 16px;
+
+        @include respond-to (768) {
+            text-align: left;
+            padding: 1.5rem 1rem 0 0;
+            line-height: 22px;
+        }
+    }

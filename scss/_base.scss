@@ -2,6 +2,11 @@
 Base Rules: The default styles.
 */
 
+// Disable scrollbar view for pixel perfect while still being able to scroll thru page
+::-webkit-scrollbar {
+	display: none;
+}
+
 body{
   color: $black;
   font-family: $gotham-book;

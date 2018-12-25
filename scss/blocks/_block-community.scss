@@ -3,47 +3,46 @@
     padding-top: 91px;
     max-width: 1090px;
     margin: 0 auto;
-    .slick-slide {
+    .community__slider {
         img{
             float: right;
         }
     }
-    .our-community {
-        display: flex;
-    }
-    .our-community__right {
-        width: 805px;
-        padding-right: 1rem;
-    }
-    .our-community__left {
-      text-align: center;
+}
+
+.community__wrapper-right-buttons {
+    justify-content: flex-end;
+    display: flex;
+}
+
+.community__wrapper {
+    display: flex;
+}
+
+.community__wrapper-right {
+    width: 805px;
+    padding-right: 1rem;
+}
+
+.community__wrapper-left {
+    text-align: center;
     padding-top: 73px;
     padding-right: 42px;
+}
 
-    &__left-img {
-      padding-bottom: 31px;
-
-    }
-
-  img {
+.community__wrapper-left-img {
     padding-bottom: 31px;
-  }
-  h2 {
+}
+
+.community__wrapper-left-title {
     font-size: 17px;
     letter-spacing: 2px;
     text-transform: uppercase;
-  }
-    }
-    &__buttons {
-        justify-content: flex-end;
-        display: flex;
-        ul {
-            display: none;
-            @include respond-to(768) {
-                display: flex;
-                font-size: 20px;
-            }
+}
+    .community__wrapper-right-list {
+        display: none;
+        @include respond-to(768) {
+            display: flex;
+            font-size: 20px;
         }
     }
-
-}

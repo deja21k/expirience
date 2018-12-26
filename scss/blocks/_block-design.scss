@@ -5,63 +5,65 @@
         min-height: 558px;
         padding: $space-1;
     }
+}
 
-    .design__slider {
-        @include respond-to (768) {
-            padding: 115px 0 0 105px;
-            margin-left: 0;
-        }
-
-        .design__slider-arrows {
-            display: none;
-
-            @include respond-to(768) {
-                display: flex;
-                margin-left: 20%;
-                max-width: 600px;
-                padding-top: 3.5rem;
-                font-size: 20px;
-            }
-
-            .design__slider-arrows-next {
-                @include respond-to (768) {
-                    padding-left: 0.5rem;
-                }
-            }
-        }
+.design__slider {
+    @include respond-to (768) {
+        padding: 115px 0 0 105px;
+        margin-left: 0;
     }
+}
 
-    .design__slider-button {
-        margin:0;
+.design__slider-arrows {
+    display: none;
 
-        @include respond-to (768) {
-            display: block;
-            margin-top: 37px;
-            padding: $space-1 $space-3;
-        }
+    @include respond-to(768) {
+        display: flex;
+        margin-left: 20%;
+        max-width: 600px;
+        padding-top: 3.5rem;
+        font-size: 20px;
     }
+}
 
-    .design__slider-title {
-        text-align: center;
-        color: $green;
-
-        @include respond-to (768) {
-            text-align: left;
-            font-size: 19px;
-            padding: 10px 0;
-            letter-spacing: 0.2em;
-        }
+.design__slider-arrows-next {
+    @include respond-to (768) {
+        padding-left: 0.5rem;
     }
+}
 
-    .design__slider-text {
-        padding: 25px 0 25px ;
-        text-align: center;
-        color: $silver;
-        font-size: 16px;
+.design__slider-button {
 
-        @include respond-to (768) {
-            text-align: left;
-            padding: 1.5rem 1rem 0 0;
-            line-height: 22px;
-        }
+
+    @include respond-to (768) {
+        display: block;
+        margin-top: 37px;
+        margin-right: 242px;
+        padding: $space-1 $space-3;
     }
+}
+
+.design__slider-title {
+    text-align: center;
+    color: $green;
+
+    @include respond-to (768) {
+        text-align: left;
+        font-size: 19px;
+        padding: 10px 0;
+        letter-spacing: 0.2em;
+    }
+}
+
+.design__slider-text {
+    padding: 25px 0 25px ;
+    text-align: center;
+    color: $silver;
+    font-size: 16px;
+
+    @include respond-to (768) {
+        text-align: left;
+        padding: 1.5rem 1rem 0 0;
+        line-height: 22px;
+    }
+}
